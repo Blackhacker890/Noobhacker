@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 nabil.py')
+    os.system('python2 Noobhacker.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -61,15 +61,7 @@ def trb():
 
 ##### LOGO #####
 logo='''
-              ░█.::!!!!!!!:.
-  .!!!!!:.                        .:!!!!!!!!!!!!
-  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$$
-      :$$NWX!!:           .:!!!!!!XUWW$$$$$$$$$P
-      $$$$$##WX!:      .<!!!!UW$$$$"  $$$$$$$$#
-      $$$$$  $$$UX   :!!UW$$$$$$$$$   4$$$$$*
-      ^$$$B  $$$$\     $$$$$$$$$$$$   d$$R"
-        "*$bd$$$$      '*$$$$$$$$$$$o+#"
-             """"          """""""
+              
   __  __          ______ _______     __
  |  \/  |   /\   |  ____|_   _\ \   / //\
  | \  / |  /  \  | |__    | |  \ \_/ //  \
